@@ -17,12 +17,12 @@
       <div>
         <ul id="navbar">
           <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="shop.html">Shop</a></li>
-          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li>
-            <a href="cart.html" id="lg-bag"
+            <a class="active" href="cart.html" id="lg-bag"
               ><i class="ri-shopping-bag-line"></i
             ></a>
           </li>
@@ -238,20 +238,20 @@
     </div>
 
     <script>
-        var MainImg = document.getElementById("mainImg");
-        var smallimg = document.getElementsByClassName("small-img");
-        smallimg[0].onclick = function(){
-            MainImg.src = smallimg[0].src;
-        }
-        smallimg[1].onclick = function(){
-            MainImg.src = smallimg[1].src;
-        }
-        smallimg[2].onclick = function(){
-            MainImg.src = smallimg[2].src;
-        }
-        smallimg[3].onclick = function(){
-            MainImg.src = smallimg[3].src;
-        }
+      var MainImg = document.getElementById("mainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
     </script>
 
     <script src="js/main.js"></script>
